@@ -1,5 +1,5 @@
 <?php
 
 interface metododepago {
-    public function metododepago(float $cantidad): void;
+    public function pagar(float $cantidad): void;
 }

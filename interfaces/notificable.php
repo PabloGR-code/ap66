@@ -1,5 +1,5 @@
 <?php
 
     interface notificable{
-        public function notificable(string $mensaje): void;
+        public function notificacion(string $mensaje): void;
     }

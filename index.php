@@ -5,4 +5,4 @@
     $bizum=new bizum();
 
     echo $bizum->pagar(50) . "<br>";
-    echo $bizum->notificar("bizum aceptado correctamente");
+    echo $bizum->notificacion("bizum aceptado correctamente");
